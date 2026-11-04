@@ -1,0 +1,36 @@
+{
+  "name": "mesa_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-form-data": "^3.0.1",
+    "firebase-admin": "^13.5.0",
+    "gm": "^1.25.1",
+    "jimp": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.0",
+    "nodemailer": "^6.10.1",
+    "nodemailer-smtp-transport": "^2.4.2",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "sequelize": "^6.19.0",
+    "sharp": "^0.34.3",
+    "twilio": "^5.9.0"
+  }
+}
